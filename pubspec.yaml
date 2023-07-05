@@ -1,0 +1,28 @@
+name: todo_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+  shared_preferences: ^2.1.0
+  sliding_up_panel: ^2.0.0+1
+  sqflite: ^2.2.8+4
+  sqflite_common_ffi: ^2.2.5
+  sqflite_common_ffi_web: ^0.3.6
+  flutter_conditional_rendering: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
